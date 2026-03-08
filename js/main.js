@@ -9,9 +9,26 @@ document.addEventListener('DOMContentLoaded', () => {
       toggle.classList.toggle('active');
     });
 
-    // Close menu on link click
+    // Close menu on non-dropdown link click
     nav.querySelectorAll('a').forEach(link => {
-      link.addEventListener('click', () => {
+      link.addEventListener('click', (e) => {
+        // Don't close if clicking a dropdown toggle
+        if (link.parentElement.classList.contains('nav-dropdown') ||
+            link.parentElement.classList.contains('nav-dropdown-sub')) {
+          if (window.innerWidth <= 768) {
+            var parent = link.parentElement;
+            // Toggle dropdown open/close on mobile
+            if (parent.classList.contains('nav-dropdown') || parent.classList.contains('nav-dropdown-sub')) {
+              // Only prevent default if it's the parent toggle, not a real link
+              var menu = parent.querySelector('.nav-dropdown-menu, .nav-dropdown-submenu');
+              if (menu && link === parent.querySelector(':scope > a')) {
+                e.preventDefault();
+                parent.classList.toggle('open');
+                return;
+              }
+            }
+          }
+        }
         nav.classList.remove('open');
         toggle.classList.remove('active');
       });
