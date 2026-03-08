@@ -468,7 +468,7 @@ window.PRODUCTS_DATA = {
       }
     ],
     image: "images/products/32d-metal-oxide-varistor.jpg",
-    standards: []
+    standards: ["UL E335803"]
   },
 
   "34s-metal-oxide-varistor": {
@@ -530,7 +530,14 @@ window.PRODUCTS_DATA = {
       "Remote communication alarm interface (dry contact)",
       "Product Warranty: Five Years"
     ],
-    applications: [],
+    applications: [
+      "Lightning surge protection in low voltage power distribution systems",
+      "Protection against transient overvoltage in electrical systems",
+      "High voltage DC power supply overheating and over-current protection",
+      "Grade C transient protection for photovoltaic (PV) power systems",
+      "Solar system surge protection",
+      "Remote monitoring of surge protection with alarm interface"
+    ],
     specs: [],
     specTables: [
       {
@@ -574,7 +581,15 @@ window.PRODUCTS_DATA = {
     categorySlug: "dc-spd",
     shortDesc: "SPD DC 500V 800V 1000V 2P 20KA~40KA Low-voltage Arrester",
     description: "<p>ULTA series SPD is used for power supply system such as IT, TT, TN-C, TN-S, TN-CS for low-voltage AC distribution, for indirect/direct lightning surge protection. Price: 2.5-10 USD.</p>",
-    features: [],
+    features: [
+      "Common mode (MC) protection capability",
+      "Hybrid design incorporating both voltage-limiting and voltage-switching components",
+      "Status indicator for device condition monitoring",
+      "Fast response time to surge events",
+      "Available in 1, 2, 3, or 4-pole configurations",
+      "Short circuit current capacity up to 10kA (8/20us)",
+      "Suitable for single-phase and three-phase power distribution systems"
+    ],
     applications: [
       "Protect electric systems from thunder and instantaneous over-voltage",
       "On-loading electrical apparatus protection"
@@ -607,7 +622,11 @@ window.PRODUCTS_DATA = {
       "Double connection for active conductor",
       "DIN Rail mounted"
     ],
-    applications: [],
+    applications: [
+      "First-level lightning protection of equipment systems in areas with high lightning risk",
+      "Protect the entrance of electrical installations",
+      "Biphase, 3-phase or 3-phase + neutral networks in common mode or common and differential mode"
+    ],
     specs: [],
     specTables: [
       {
@@ -645,7 +664,15 @@ window.PRODUCTS_DATA = {
       "Latest thermal release technology",
       "Large flow capacity, low residual pressure"
     ],
-    applications: [],
+    applications: [
+      "First-level lightning protection for equipment systems in high-risk lightning strike areas",
+      "TT system protection for low voltage equipment from surge damages",
+      "Biphase, 3-phase, or 3-phase + neutral network protection in common or differential mode",
+      "Entrance of electrical installations as Type 1+2 protection",
+      "Single-phase and three-phase TT/TN/IT power supply systems",
+      "220/380V power supply distribution system lightning protection",
+      "Harsh environment protection (acid, alkali, dust, salt spray, humidity)"
+    ],
     specs: [],
     specTables: [
       {
@@ -686,15 +713,19 @@ window.PRODUCTS_DATA = {
       "Fully enclosed terminal",
       "PC flame retardant shell",
       "Replaceable module",
-      "PPT material cover anti-flame",
+      "PPT material cover anti-flame with fire insulation properties",
       "FLYBOAT chip with zinc oxide",
       "Remote control with signal contact",
-      "TUV certificate EN50539-11"
+      "TUV certificate EN50539-11",
+      "Common and differential mode protection for DC networks",
+      "Installation at both DC line ends (solar panel side and inverter/converter side)"
     ],
     applications: [
       "Protect electrical equipment from lightning/operation/power frequency over-voltage",
       "Front of inverter input and back of inverter output",
-      "Parallel in electric circuits"
+      "Parallel in electric circuits",
+      "Solar photovoltaic power supply systems",
+      "Outdoor power systems with extended line routing"
     ],
     specs: [
       { label: "Voltage Levels", value: "1500V/1200V/1000V/500V" },
@@ -721,8 +752,23 @@ window.PRODUCTS_DATA = {
     categorySlug: "ac-spd",
     shortDesc: "SPD DC 3P 1000V 1500V 20KA~40KA Din Rail Solar Surge Protector",
     description: "<p>AC surge protector (TVSS) designed to protect sensitive electrical equipment from transient voltage spikes. Uses Metal Oxide Varistor (MOV) protection circuits.</p>",
-    features: [],
-    applications: [],
+    features: [
+      "Failure indication and centralized remote signalling alarm dry contacts",
+      "High discharge capacity and low residual voltage",
+      "Over-temperature protection",
+      "Short-circuit interruption (SCI) overcurrent protection",
+      "IP20 rating with UL94 V0 material classification",
+      "DIN35mm rail mounting",
+      "Single-phase and three-phase configuration options",
+      "Protection modes for L-N and N-PE configurations",
+      "Response time under 25 nanoseconds"
+    ],
+    applications: [
+      "Protect sensitive electric and electronic equipment from transient voltage",
+      "Lightning surge and electrical spike protection",
+      "PV/solar power system surge protection",
+      "Low-voltage AC power distribution systems"
+    ],
     specs: [],
     specTables: [
       {
@@ -779,7 +825,13 @@ window.PRODUCTS_DATA = {
       "Double protection: over-heat and over-current",
       "Remote signaling interface"
     ],
-    applications: [],
+    applications: [
+      "PV systems and solar power installations",
+      "Household electrical protection",
+      "Three-phase surge protection scenarios",
+      "DC lightning protection at multiple voltage levels (500V, 800V, 1000V)",
+      "Indoor use applications"
+    ],
     specs: [
       { label: "Model", value: "P20K385-51" },
       { label: "Brand", value: "Flyboat" },
@@ -809,7 +861,7 @@ window.PRODUCTS_DATA = {
       }
     ],
     image: "images/products/ul-ce-spd.jpg",
-    standards: []
+    standards: ["UL", "CE"]
   },
 
   "imax-40ka-230-400v": {
@@ -826,7 +878,12 @@ window.PRODUCTS_DATA = {
       "Pluggable module design",
       "Built-in flash interrupter device"
     ],
-    applications: [],
+    applications: [
+      "Lightning protection systems for AC power distribution",
+      "Commercial and industrial electrical installations",
+      "Residential surge protection",
+      "Three-phase power systems (1P/2P/3P/4P configurations)"
+    ],
     specs: [
       { label: "Max Continuous Voltage Uc", value: "420V" },
       { label: "Nominal In", value: "60KA" },
@@ -867,9 +924,12 @@ window.PRODUCTS_DATA = {
     shortDesc: "AC T2T3 Type 275/385V In 10/40kA 4P Three-Phase Surge Protection",
     description: "<p>100% brand new and high quality house surge protective device suitable for DC 420V 40KA.</p>",
     features: [
-      "High quality material with long service life",
+      "100% brand new and high quality material with long service life",
       "Stable performance and easy to install",
-      "Green/Red window for operational status"
+      "Green/Red window for operational status",
+      "Rapid response time under 25 nanoseconds",
+      "Fiber glass reinforced plastic shell",
+      "Protection mode: L-N/N-PE"
     ],
     applications: [
       "Telecommunications",
@@ -892,11 +952,19 @@ window.PRODUCTS_DATA = {
       { label: "Max Imax", value: "40kA" },
       { label: "Response", value: "<25ns" },
       { label: "Operating Temperature", value: "\u221240~+85\u00b0C" },
-      { label: "Protection", value: "IP20" }
+      { label: "Protection", value: "IP20" },
+      { label: "Dimensions", value: "72\u00d790\u00d765mm" },
+      { label: "Shell Material", value: "Fiber glass reinforced plastic" },
+      { label: "Grounding Resistance", value: "\u22644\u03a9" },
+      { label: "Live Wire", value: "\u22656mm\u00b2" },
+      { label: "Earth Wire", value: "\u226510mm\u00b2" },
+      { label: "Protection Mode", value: "L-N/N-PE" },
+      { label: "Applicable Power", value: "Three Phase" },
+      { label: "Humidity (25\u00b0C)", value: "\u226495%" }
     ],
     specTables: [],
     image: "images/products/220v-10-40ka-surge-protector.jpg",
-    standards: ["CE", "TUV", "UL", "IEC 61643-1 Class II/Type 2"]
+    standards: ["CE", "TUV", "UL", "IEC 61643-1 Class II/Type 2", "GB18802.1"]
   },
 
   "220v-lightning-protection-three-phase": {
@@ -914,7 +982,15 @@ window.PRODUCTS_DATA = {
       "Remote signaling of faults",
       "Optimized for TOV"
     ],
-    applications: [],
+    applications: [
+      "Solar photovoltaic (PV) systems",
+      "DC power supply lines (both solar array side and inverter/converter side)",
+      "Combiner box placement (DIN mount)",
+      "Primary AC utility power supply protection",
+      "Inverter DC input protection",
+      "Underground or shielded connections between external PV arrays and control equipment",
+      "Equipotential bonding installations"
+    ],
     specs: [
       { label: "Pole", value: "2P" },
       { label: "Test", value: "Class II" },
@@ -925,7 +1001,13 @@ window.PRODUCTS_DATA = {
       { label: "Up", value: "2kV" },
       { label: "Dimensions", value: "36x90x67.6mm" },
       { label: "Weight", value: "0.24kg" },
-      { label: "Ambient Temperature", value: "\u221230 to 70\u00b0C" }
+      { label: "Ambient Temperature", value: "\u221230 to 70\u00b0C" },
+      { label: "Hard Wire Capacity", value: "4\u201325mm\u00b2" },
+      { label: "Flexible Wire Capacity", value: "4\u201316mm\u00b2" },
+      { label: "Stripping Length", value: "10mm" },
+      { label: "Main Circuit Torque", value: "3.5 Nm" },
+      { label: "Protection Class (Profile)", value: "IP40" },
+      { label: "Connection Port IP Rating", value: "IP20" }
     ],
     specTables: [],
     image: "images/products/220v-lightning-protection-three-phase.jpg",
@@ -944,16 +1026,20 @@ window.PRODUCTS_DATA = {
     shortDesc: "UL 1449 4th Ed. Approved with 200kA SCCR Rating",
     description: "<p>The product family is applicable for all common electrical power systems. UL 1449 4rd Ed. Approved with a 200 kA SCCR rating - no additional overcurrent protection needed.</p>",
     features: [
-      "Advanced Circuit Interruption (ACI) technology",
+      "Advanced Circuit Interruption (ACI) technology - switch/spark gap combination integrated in protection module",
       "No external backup fuse required due to ACI",
       "Zero leakage current due to galvanic isolation",
       "Energy coordination with Red/Line product family",
       "Vibration/shock tested per EN 60068-2",
       "Plug in/out style",
       "Double protection of over-heat and over-current",
-      "Remote signaling interface"
+      "Remote signaling interface",
+      "200kA SCCR rating"
     ],
-    applications: [],
+    applications: [
+      "All common electrical power systems",
+      "Type 2 surge arrester applications"
+    ],
     specs: [
       { label: "Installation Step 1", value: "Cut off power before installing" },
       { label: "Installation Step 2", value: "Connect fuse/circuit breaker in series" },
@@ -974,14 +1060,24 @@ window.PRODUCTS_DATA = {
     categorySlug: "protection-module",
     shortDesc: "SPD 34sp1 Series Surge Protective Device with UL TUV",
     description: "<p>SPD Plastic Parts Copper Parts DC Electric photovoltaic PV surge protector surge arrestor accessory SPD Module 34sp1 Series.</p>",
-    features: [],
-    applications: [],
+    features: [
+      "Replacement module for SPD devices",
+      "Compatible with DC electrical systems",
+      "Photovoltaic (PV) system compatible",
+      "34SP1 Series design"
+    ],
+    applications: [
+      "DC electrical systems",
+      "Photovoltaic (PV) systems",
+      "Overvoltage protection applications",
+      "Surge protector module replacement"
+    ],
     specs: [
       { label: "Model", value: "SPD B10K385/21" }
     ],
     specTables: [],
     image: "images/products/surge-replacement-module.jpg",
-    standards: []
+    standards: ["UL", "TUV"]
   },
 
   "onboard-surge-protection-device": {
@@ -998,7 +1094,12 @@ window.PRODUCTS_DATA = {
       "Differential and Common Mode Protections",
       "RoHS & REACH Compliant"
     ],
-    applications: [],
+    applications: [
+      "Solar power systems",
+      "Outdoor installations",
+      "Power protection systems",
+      "Din Rail modular installations"
+    ],
     specs: [
       { label: "Voltages", value: "DC 600V, 800V, 1000V, 1500V" }
     ],
@@ -1014,8 +1115,17 @@ window.PRODUCTS_DATA = {
     categorySlug: "protection-module",
     shortDesc: "Din Rail Adjustable Over Voltage Protective Device 275V 420V 20~40KA",
     description: "<p>SPD Din rail adjustable over voltage protective device protector over current protection AC SPD Replace Module for 275V 420V 20~40KA.</p>",
-    features: [],
-    applications: [],
+    features: [
+      "Din rail adjustable mounting",
+      "Over voltage protection",
+      "Over current protection",
+      "Replacement module/core for surge protective devices",
+      "AC SPD compatible"
+    ],
+    applications: [
+      "AC surge protection replacement modules",
+      "Over voltage and over current protection systems"
+    ],
     specs: [
       { label: "Voltage", value: "275V/420V" },
       { label: "Discharge", value: "20~40KA" },
@@ -1033,8 +1143,20 @@ window.PRODUCTS_DATA = {
     categorySlug: "protection-module",
     shortDesc: "SPD Replace Module DC 600V 1000V 1500V 2P 20~40KA B20K385/51",
     description: "<p>Installed in parallel on DC networks. High energy MOVs with specific thermal disconnectors and failure indicators.</p>",
-    features: [],
-    applications: [],
+    features: [
+      "Common and differential mode protection for DC networks",
+      "Recommended placement at both ends of DC power supply line (solar panel side and inverter/converter side), especially for external and long line routing",
+      "High-energy metal oxide varistors with thermal disconnectors",
+      "Failure indicators included",
+      "Replaceable plug-in module design",
+      "Remote signal accessory available"
+    ],
+    applications: [
+      "DC power system protection",
+      "Solar installations and renewable energy systems",
+      "Extended supply line surge suppression",
+      "Inverter/converter side protection"
+    ],
     specs: [],
     specTables: [
       {
@@ -1074,14 +1196,19 @@ window.PRODUCTS_DATA = {
     shortDesc: "Replacement Cartridges for AC SPD 385V 10~20KA, 20~40KA, 30KA~60KA",
     description: "<p>Cartridges available for all discharge currents (40kA and 15kA) with and without condition indication. Allow simple replacement without cutting off power supply.</p>",
     features: [
-      "Simple replacement without power cut-off",
-      "Available for all discharge currents",
-      "Keying system prevents wrong cartridge interchange",
-      "Neutral cartridges: 65kA discharge",
-      "Easy replacement without tools via locking system",
-      "Green/red indicator flag"
+      "Hot-swappable design - replacement without cutting off power supply",
+      "Powerful creepage discharge spark gap technology",
+      "Available for all discharge currents (40kA and 15kA) with optional condition indication",
+      "Keying system prevents wrong cartridge interchange (line vs neutral)",
+      "Neutral cartridges: 65kA discharge capacity",
+      "Tool-free replacement via module locking system",
+      "Green/red indicator flag for operational status",
+      "Live replacement capability - no need to de-energise"
     ],
-    applications: [],
+    applications: [
+      "AC SPD replacement cartridges at 385V",
+      "Surge protective device module replacement across discharge ranges (10-20kA, 20-40kA, 30-60kA)"
+    ],
     specs: [
       { label: "FAQ - Factory Experience", value: "20+ years MOV experience" },
       { label: "FAQ - MOQ", value: "100pcs" },
@@ -1098,11 +1225,22 @@ window.PRODUCTS_DATA = {
     id: "plug-in-spd-block",
     name: "Plug-in SPD Block",
     category: "Accessories for SPDs",
-    categorySlug: "accessories-for-spds",
+    categorySlug: "protection-module",
     shortDesc: "Replaceable AC SPD 1P 30KA~60KA 385VAC Low-voltage Arrester",
     description: "<p>SPD Replaceable replacement cartridge inserts 275V AC plug-in protection module.</p>",
-    features: [],
-    applications: [],
+    features: [
+      "Low residual voltage and quick response",
+      "Flame retardant shell material",
+      "Metal oxide varistor components with high discharge capacity",
+      "Response time: <25ns",
+      "Fault indication via red mark in inspection window",
+      "Green (normal) / Red (malfunction) status indicator"
+    ],
+    applications: [
+      "Protect electric systems and on-loading electrical apparatus from thunder and instantaneous over-voltage",
+      "Low-voltage AC power distribution surge protection",
+      "Three-phase power system protection (230/400V AC 50/60Hz)"
+    ],
     specs: [
       { label: "Electric", value: "230/400V AC50/60Hz 3-phase" },
       { label: "Standard", value: "IEC/EN 61643-1" },
@@ -1135,7 +1273,12 @@ window.PRODUCTS_DATA = {
     categorySlug: "accessories-for-spds",
     shortDesc: "Green Plastic Solar AC DC Surge Protector Accessory",
     description: "<p>40 KA 4P AC Surge Voltage Protector Lightning Surge Protector SPD accessories. CE Certified.</p>",
-    features: [],
+    features: [
+      "35mm standard guide rail installation",
+      "Equipotential connection between device and SPD",
+      "Customizable color options",
+      "Multi-pole configurations (2P, 3P, 4P)"
+    ],
     applications: [],
     specs: [
       { label: "Model", value: "DSC07798" },
@@ -1147,11 +1290,15 @@ window.PRODUCTS_DATA = {
       { label: "Supply Capacity", value: "200000/month" },
       { label: "Lead Time (1-1000)", value: "7 days" },
       { label: "Lead Time (1001-10000)", value: "15 days" },
-      { label: "Lead Time (10001-99999)", value: "20 days" }
+      { label: "Lead Time (10001-99999)", value: "20 days" },
+      { label: "Grounding - Data Lines", value: "Min 2.5mm\u00b2; exceeding 0.5m requires 4mm\u00b2 (YD/T5098-1998)" },
+      { label: "Grounding - Phase \u226416mm\u00b2", value: "Ground wire = phase conductor size (GB 50054)" },
+      { label: "Grounding - Phase 16-35mm\u00b2", value: "Ground wire = 16mm\u00b2 (GB 50054)" },
+      { label: "Grounding - Phase >35mm\u00b2", value: "Ground wire = S/2 (GB 50054)" }
     ],
     specTables: [],
     image: "images/products/customizable-spd-plastic.jpg",
-    standards: ["CE"]
+    standards: ["CE", "UL", "TUV", "ISO 9001:2018", "GB 50054", "YD/T5098-1998"]
   },
 
   "parts-surge-arrestor": {
@@ -1182,7 +1329,7 @@ window.PRODUCTS_DATA = {
     ],
     specTables: [],
     image: "images/products/parts-surge-arrestor.jpg",
-    standards: ["CE"]
+    standards: ["CE", "UL", "TUV", "ISO 9001:2018", "IEC 61643-331:2017", "GB 18802.331:2020"]
   },
 
   "green-plastic-spd": {
@@ -1194,11 +1341,13 @@ window.PRODUCTS_DATA = {
     description: "<p>Factory original production 40KA surge protector surge arrestor accessory. Heavy-duty zinc oxide varistor / spark gap combination.</p>",
     features: [
       "Two-pole surge arrester with plug-in module",
-      "Heavy-duty zinc oxide varistor/spark gap",
+      "Heavy-duty zinc oxide varistor/spark gap combination",
       "Energy coordination capability",
       "Green/red indicator flag",
       "Modular design per DIN 43880",
-      "Replaceable protection modules"
+      "Replaceable protection modules",
+      "35mm standard guide rail (DIN rail) installation",
+      "Proper grounding wire sizing required per GB 50054 standards based on phase conductor cross-section"
     ],
     applications: [],
     specs: [
@@ -1214,7 +1363,7 @@ window.PRODUCTS_DATA = {
     ],
     specTables: [],
     image: "images/products/green-plastic-spd.jpg",
-    standards: ["CE"]
+    standards: ["CE", "UL", "TUV", "IEC 61643-331:2017", "GB 18802.331:2020"]
   }
 
 };

@@ -1,0 +1,242 @@
+{
+  "220v-10-40ka-surge-protector": {
+    "features": [
+      "100% brand new and high quality material with long service life",
+      "Stable performance and easy to install",
+      "Green/Red window for operational status",
+      "Rapid response time under 25 nanoseconds",
+      "Fiber glass reinforced plastic shell",
+      "Protection mode: L-N/N-PE"
+    ],
+    "additionalSpecs": [
+      { "label": "Dimensions", "value": "72×90×65mm" },
+      { "label": "Shell Material", "value": "Fiber glass reinforced plastic" },
+      { "label": "Grounding Resistance", "value": "≤4Ω" },
+      { "label": "Live Wire", "value": "≥6mm²" },
+      { "label": "Earth Wire", "value": "≥10mm²" },
+      { "label": "Protection Mode", "value": "L-N/N-PE" },
+      { "label": "Applicable Power", "value": "Three Phase" },
+      { "label": "Humidity (25°C)", "value": "≤95%" }
+    ],
+    "standards": ["CE", "TUV", "UL", "IEC 61643-1 Class II/Type 2", "GB18802.1"],
+    "notes": "Added GB18802.1 to standards. Added missing dimensions (72×90×65mm), shell material (fiber glass reinforced plastic), grounding resistance (≤4Ω), wire specs (live ≥6mm², earth ≥10mm²), protection mode (L-N/N-PE) to features and additionalSpecs."
+  },
+
+  "imax-40ka-230-400v": {
+    "applications": [
+      "Lightning protection systems for AC power distribution",
+      "Commercial and industrial electrical installations",
+      "Residential surge protection",
+      "Three-phase power systems (1P/2P/3P/4P configurations)"
+    ],
+    "notes": "Added missing applications including 'Lightning protection systems for AC power distribution'. Original site confirms features are complete. Applications were empty in current data."
+  },
+
+  "220v-lightning-protection-three-phase": {
+    "applications": [
+      "Solar photovoltaic (PV) systems",
+      "DC power supply lines (both solar array side and inverter/converter side)",
+      "Combiner box placement (DIN mount)",
+      "Primary AC utility power supply protection",
+      "Inverter DC input protection",
+      "Underground or shielded connections between external PV arrays and control equipment",
+      "Equipotential bonding installations"
+    ],
+    "additionalSpecs": [
+      { "label": "Hard Wire Capacity", "value": "4–25mm²" },
+      { "label": "Flexible Wire Capacity", "value": "4–16mm²" },
+      { "label": "Stripping Length", "value": "10mm" },
+      { "label": "Main Circuit Torque", "value": "3.5 Nm" },
+      { "label": "Protection Class (Profile)", "value": "IP40" },
+      { "label": "Connection Port IP Rating", "value": "IP20" }
+    ],
+    "notes": "Added missing applications about solar PV / combiner box placement from original page. Added missing wire capacities (hard: 4-25mm², flexible: 4-16mm²), IP ratings (IP40 profile, IP20 connection port), stripping length, and torque specs."
+  },
+
+  "ul-ce-spd": {
+    "standards": ["UL", "CE"],
+    "applications": [
+      "PV systems and solar power installations",
+      "Household electrical protection",
+      "Three-phase surge protection scenarios",
+      "DC lightning protection at multiple voltage levels (500V, 800V, 1000V)",
+      "Indoor use applications"
+    ],
+    "notes": "Standards array was EMPTY - added UL and CE as confirmed on original page. Added applications from original site. Spec tables already present and complete in current data."
+  },
+
+  "onboard-surge-protection-device": {
+    "applications": [
+      "Solar power systems",
+      "Outdoor installations",
+      "Power protection systems",
+      "Din Rail modular installations"
+    ],
+    "notes": "Added applications from original page (Solar, Outdoor, Power Protection, Din Rail). Features already complete. Original page has minimal spec data beyond what is already captured. Standards remain empty as original site does not list specific standards beyond RoHS/REACH which are in features."
+  },
+
+  "surge-protective-modules": {
+    "features": [
+      "Advanced Circuit Interruption (ACI) technology - switch/spark gap combination integrated in protection module",
+      "No external backup fuse required due to ACI",
+      "Zero leakage current due to galvanic isolation",
+      "Energy coordination with Red/Line product family",
+      "Vibration/shock tested per EN 60068-2",
+      "Plug in/out style",
+      "Double protection of over-heat and over-current",
+      "Remote signaling interface",
+      "200kA SCCR rating"
+    ],
+    "applications": [
+      "All common electrical power systems",
+      "Type 2 surge arrester applications"
+    ],
+    "notes": "Enhanced ACI feature description to explicitly include 'switch/spark gap combination' detail from original page. Added 200kA SCCR rating to features. Added applications that were empty."
+  },
+
+  "spd-modular": {
+    "features": [
+      "Din rail adjustable mounting",
+      "Over voltage protection",
+      "Over current protection",
+      "Replacement module/core for surge protective devices",
+      "AC SPD compatible"
+    ],
+    "applications": [
+      "AC surge protection replacement modules",
+      "Over voltage and over current protection systems"
+    ],
+    "notes": "Features and applications were both empty. Added features and applications from original page. Original page has minimal technical detail - no additional spec tables or standards found."
+  },
+
+  "plug-in-spd-block": {
+    "categorySlug": "protection-module",
+    "features": [
+      "Low residual voltage and quick response",
+      "Flame retardant shell material",
+      "Metal oxide varistor components with high discharge capacity",
+      "Response time: <25ns",
+      "Fault indication via red mark in inspection window",
+      "Green (normal) / Red (malfunction) status indicator"
+    ],
+    "applications": [
+      "Protect electric systems and on-loading electrical apparatus from thunder and instantaneous over-voltage",
+      "Low-voltage AC power distribution surge protection",
+      "Three-phase power system protection (230/400V AC 50/60Hz)"
+    ],
+    "notes": "Fixed categorySlug from 'accessories-for-spds' to 'protection-module' (product is under TMOV/protection modules on original site). Added missing features: low residual voltage, quick response, flame retardant shell. Added missing applications."
+  },
+
+  "surge-replacement-module": {
+    "standards": ["UL", "TUV"],
+    "features": [
+      "Replacement module for SPD devices",
+      "Compatible with DC electrical systems",
+      "Photovoltaic (PV) system compatible",
+      "34SP1 Series design"
+    ],
+    "applications": [
+      "DC electrical systems",
+      "Photovoltaic (PV) systems",
+      "Overvoltage protection applications",
+      "Surge protector module replacement"
+    ],
+    "notes": "Standards was EMPTY - added UL and TUV as confirmed on original page. Added features and applications that were both empty."
+  },
+
+  "plug-in-surge-arrester": {
+    "features": [
+      "Common and differential mode protection for DC networks",
+      "Recommended placement at both ends of DC power supply line (solar panel side and inverter/converter side), especially for external and long line routing",
+      "High-energy metal oxide varistors with thermal disconnectors",
+      "Failure indicators included",
+      "Replaceable plug-in module design",
+      "Remote signal accessory available"
+    ],
+    "applications": [
+      "DC power system protection",
+      "Solar installations and renewable energy systems",
+      "Extended supply line surge suppression",
+      "Inverter/converter side protection"
+    ],
+    "notes": "Added 'common and differential mode protection' and 'recommended placement at both ends of supply lines' to features as specified. Added applications that were empty."
+  },
+
+  "surge-protective-components": {
+    "features": [
+      "Hot-swappable design - replacement without cutting off power supply",
+      "Powerful creepage discharge spark gap technology",
+      "Available for all discharge currents (40kA and 15kA) with optional condition indication",
+      "Keying system prevents wrong cartridge interchange (line vs neutral)",
+      "Neutral cartridges: 65kA discharge capacity",
+      "Tool-free replacement via module locking system",
+      "Green/red indicator flag for operational status",
+      "Live replacement capability - no need to de-energise"
+    ],
+    "applications": [
+      "AC SPD replacement cartridges at 385V",
+      "Surge protective device module replacement across discharge ranges (10-20kA, 20-40kA, 30-60kA)"
+    ],
+    "notes": "Added 'hot-swappable' feature (described as 'replacement without cutting off power supply' on original). Added 'creepage discharge spark gap' technology to features. Enhanced existing features with more detail from original page. Added applications."
+  },
+
+  "parts-surge-arrestor": {
+    "standards": ["CE", "UL", "TUV", "ISO 9001:2018", "IEC 61643-331:2017", "GB 18802.331:2020"],
+    "notes": "Standards only had CE. Added UL, TUV, ISO 9001:2018, IEC 61643-331:2017, GB 18802.331:2020 as confirmed on original page."
+  },
+
+  "green-plastic-spd": {
+    "features": [
+      "Two-pole surge arrester with plug-in module",
+      "Heavy-duty zinc oxide varistor/spark gap combination",
+      "Energy coordination capability",
+      "Green/red indicator flag",
+      "Modular design per DIN 43880",
+      "Replaceable protection modules",
+      "35mm standard guide rail (DIN rail) installation",
+      "Proper grounding wire sizing required per GB 50054 standards based on phase conductor cross-section"
+    ],
+    "standards": ["CE", "UL", "TUV", "IEC 61643-331:2017", "GB 18802.331:2020"],
+    "notes": "Added installation notes to features: 35mm DIN rail mounting and grounding wire sizing requirements per GB 50054. Added UL, TUV, IEC 61643-331:2017, GB 18802.331:2020 to standards (original page lists these certifications)."
+  },
+
+  "customizable-spd-plastic": {
+    "standards": ["CE", "UL", "TUV", "ISO 9001:2018", "GB 50054", "YD/T5098-1998"],
+    "features": [
+      "35mm standard guide rail installation",
+      "Equipotential connection between device and SPD",
+      "Customizable color options",
+      "Multi-pole configurations (2P, 3P, 4P)"
+    ],
+    "additionalSpecs": [
+      { "label": "Grounding - Data Lines", "value": "Min 2.5mm²; exceeding 0.5m requires 4mm² (YD/T5098-1998)" },
+      { "label": "Grounding - Phase ≤16mm²", "value": "Ground wire = phase conductor size (GB 50054)" },
+      { "label": "Grounding - Phase 16-35mm²", "value": "Ground wire = 16mm² (GB 50054)" },
+      { "label": "Grounding - Phase >35mm²", "value": "Ground wire = S/2 (GB 50054)" }
+    ],
+    "notes": "Added GB 50054 and YD/T5098-1998 to standards. Added grounding wire diameter table from original page as additionalSpecs. Added features from original page."
+  },
+
+  "1000v-dc-spd": {
+    "features": [
+      "Indicator window (green OK / red failure)",
+      "Fully enclosed terminal",
+      "PC flame retardant shell",
+      "Replaceable module",
+      "PPT material cover anti-flame with fire insulation properties",
+      "FLYBOAT chip with zinc oxide",
+      "Remote control with signal contact",
+      "TUV certificate EN50539-11",
+      "Common and differential mode protection for DC networks",
+      "Installation at both DC line ends (solar panel side and inverter/converter side)"
+    ],
+    "applications": [
+      "Protect electrical equipment from lightning/operation/power frequency over-voltage",
+      "Front of inverter input and back of inverter output",
+      "Parallel in electric circuits",
+      "Solar photovoltaic power supply systems",
+      "Outdoor power systems with extended line routing"
+    ],
+    "notes": "Category is 'dc-spd' in current data which maps to DC SPD OEM; original site has it under spd-accessories. Keeping current category as the product fits DC SPD OEM. Added 'common and differential mode protection' detail to features. Added fire insulation properties (PPT anti-flame). Added solar PV and outdoor applications."
+  }
+}
